@@ -1,0 +1,64 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 110px;
+}
+
+.addTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 20px;
+}
+
+.inputContainer {
+  flex: 1;
+}
+
+.addTaskInput {
+  padding: 10px;
+  width: 100%;
+}
+
+.addTaskButton {
+  width: 181px;
+  padding: 10px;
+}
+
+.taskList {
+  max-width: 100%; /* Ensure the task list container matches the input container */
+  margin: 0 auto; /* Center the task list horizontally */
+}
+
+
+.taskList ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 80px;
+  gap: 20px;
+  width: 100%;
+}
+
+.taskList li {
+  background-color: lightgray;
+  padding: 10px;
+  width: 87%;
+  box-sizing: border-box;
+}
